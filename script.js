@@ -97,4 +97,14 @@ function calculateCalories(e) {
 // Function to clear all input fields and hide the output display
 function clearForm() {
   const inputContainers = Array.from(document.querySelectorAll('.input-container'));
-  for (const container of inputContainers)
+  for (const container of inputContainers) {
+    container.innerHTML = '';
+  }
+  budgetNumberInput.value = '';
+  output.classList.add('hide').innerText = '';
+} 
+
+// Attach event listeners to buttons and form submit
+addEntryButton.addEventListener('click', addEntry);
+calorieCounter.addEventListener('submit', calculateCalories);
+clearButton.addEventListener('click', clearForm);
