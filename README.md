@@ -37,10 +37,6 @@ Contributions are welcome! Please feel free to submit pull requests or create is
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## Acknowledgments
-- Thanks to everyone who has contributed to this project!
-
-
 
 ![image](https://github.com/chavez62/fcc-calorie-counter/assets/67764701/d1d5a873-7140-4b6a-bb7d-720ca4e1dd31)
 ![image](https://github.com/chavez62/fcc-calorie-counter/assets/67764701/5c94d45a-d6e3-4e62-b3c2-ae254d342558)
